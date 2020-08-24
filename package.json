@@ -1,11 +1,12 @@
 {
+  "homepage": "https://judyz01.github.io/personal-site",
   "name": "jzsite",
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Judy Zhang <judy.j.zhang@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://judyz01.github.io/"
+    "url": "https://judyz01.github.io/personal-site"
   },
   "keywords": [
     "gatsby"
@@ -17,7 +18,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
