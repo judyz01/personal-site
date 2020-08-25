@@ -4,7 +4,7 @@ module.exports = {
     'Judy Zhang is a software engineer based in San Jose, CA, who is passionate about developing and building websites, applications, etc.',
   siteKeywords:
     'Judy Zhang, Judy, Zhang, judyz01, software engineer, front-end engineer, web developer, developer portfolio',
-  siteUrl: 'https://judyz01.github.io/',
+  siteUrl: 'https://nostalgic-borg-51d306.netlify.app/',
   siteLanguage: 'en_US',
   // googleAnalyticsID: ,
   // googleVerification: ,
