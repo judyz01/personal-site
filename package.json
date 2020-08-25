@@ -1,6 +1,6 @@
 {
-  "homepage": "https://judyz01.github.io/personal-site",
   "name": "jzsite",
+  "homepage": "https://judyz01.github.io/personal-site",
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Judy Zhang <judy.j.zhang@gmail.com>",
@@ -19,22 +19,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write"
-    ],
-    "*.js": [
-      "eslint --fix"
-    ]
-  },
+
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
