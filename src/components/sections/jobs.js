@@ -236,7 +236,7 @@ const Jobs = ({ data }) => {
                 <StyledJobTitle>
                   <span>{title}</span>
                   <StyledCompany>
-                    <span>&nbsp;@&nbsp;</span>
+                    <span>&nbsp;|&nbsp;</span>
                     <a href={url} target="_blank" rel="nofollow noopener noreferrer">
                       {company}
                     </a>
