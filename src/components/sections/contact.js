@@ -8,6 +8,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
+  margin-bottom: 100px;
 `;
 
 const StyledContent = styled.div`
