@@ -8,7 +8,6 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
-  max-width: 700px;
 `;
 const StyledTabs = styled.div`
   display: flex;
@@ -119,6 +118,7 @@ const StyledHighlight = styled.span`
 `;
 const StyledTabContent = styled.div`
   position: relative;
+  max-width: 600px;
   width: 100%;
   height: auto;
   padding-top: 12px;

@@ -85,7 +85,6 @@ const Loader = ({ finishLoading }) => {
   return (
     <StyledContainer className="loader">
       <Helmet bodyAttributes={{ class: `hidden` }} />
-
       <StyledLogo isMounted={isMounted}>
         <IconLoader />
       </StyledLogo>
