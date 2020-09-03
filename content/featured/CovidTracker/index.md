@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Covid Tracker'
 cover: './covidtracker.png'
 github: 'https://github.com/judyz01/covidtracker'
