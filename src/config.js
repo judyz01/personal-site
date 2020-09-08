@@ -14,6 +14,10 @@ module.exports = {
   github: 'https://github.com/judyz01',
   socialMedia: [
     {
+      name: 'Email',
+      url: `mailto:judy.j.zhang@gmail.com`,
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/judyz01',
     },
