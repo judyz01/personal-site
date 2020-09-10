@@ -143,7 +143,7 @@ const StyledListItem = styled.li`
   position: relative;
   font-size: ${fontSizes.smish};
   &:before {
-    content: '>';
+    content: '▹';
     text-align: right;
     color: ${colors.lavender};
     font-size: ${fontSizes.xs};
