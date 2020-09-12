@@ -1,7 +1,7 @@
 ---
 title: 'Hi, my name is'
 name: 'Judy Zhang'
-subtitle: 'I code ideas into reality.'
+subtitle: 'I swear I can code.'
 buttonText: 'Get In Touch'
 ---
 
