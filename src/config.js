@@ -18,6 +18,10 @@ module.exports = {
       url: `mailto:judy.j.zhang@gmail.com`,
     },
     {
+      name: 'Resume',
+      url: `resume.pdf`,
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/judyz01',
     },
