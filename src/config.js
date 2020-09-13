@@ -14,12 +14,12 @@ module.exports = {
   github: 'https://github.com/judyz01',
   socialMedia: [
     {
-      name: 'Email',
-      url: `mailto:judy.j.zhang@gmail.com`,
+      name: 'Resume',
+      url: 'resume.pdf',
     },
     {
-      name: 'Resume',
-      url: `resume.pdf`,
+      name: 'Email',
+      url: 'mailto:judy.j.zhang@gmail.com',
     },
     {
       name: 'GitHub',
