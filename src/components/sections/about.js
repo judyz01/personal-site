@@ -63,15 +63,6 @@ const StyledPic = styled.div`
 const StyledAvatar = styled(Img)`
   position: relative;
   width: 100%;
-  max-width: 300px;
-  margin-left: 20px;
-  ${media.tablet`margin: 30px auto 0;`};
-  ${media.phablet`width: 70%;`};
-  a {
-    &:focus {
-      outline: 0;
-    }
-  }
 `;
 const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
