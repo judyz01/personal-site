@@ -50,9 +50,9 @@ const Skill = styled.li`
 const StyledPic = styled.div`
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   margin-left: 20px;
-  ${media.tablet`margin: 60px auto 0;`};
+  ${media.tablet`margin: 30px auto 0;`};
   ${media.phablet`width: 70%;`};
   a {
     &:focus {
@@ -62,26 +62,33 @@ const StyledPic = styled.div`
 `;
 const StyledAvatar = styled(Img)`
   position: relative;
-  border-radius: ${theme.borderRadius};
-  transition: ${theme.transition};
+  width: 100%;
+  max-width: 300px;
+  margin-left: 20px;
+  ${media.tablet`margin: 30px auto 0;`};
+  ${media.phablet`width: 70%;`};
+  a {
+    &:focus {
+      outline: 0;
+    }
+  }
 `;
 const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
   width: 100%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  margin-left: -20px;
-  &:hover,
-  &:focus {
-    background: transparent;
-    &:after {
+  // &:hover,
+  // &:focus {
+  //   background: transparent;
+  //   &:after {
 
-    }
-    ${StyledAvatar} {
-      filter: none;
-      mix-blend-mode: normal;
-    }
-  }
+  //   }
+  //   ${StyledAvatar} {
+  //     filter: none;
+  //     mix-blend-mode: normal;
+  //   }
+  // }
   // &:before,
   // &:after {
   //   content: '';
