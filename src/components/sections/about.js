@@ -68,41 +68,6 @@ const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
   width: 100%;
   position: relative;
-  border-radius: ${theme.borderRadius};
-  // &:hover,
-  // &:focus {
-  //   background: transparent;
-  //   &:after {
-
-  //   }
-  //   ${StyledAvatar} {
-  //     filter: none;
-  //     mix-blend-mode: normal;
-  //   }
-  // }
-  // &:before,
-  // &:after {
-  //   content: '';
-  //   display: block;
-  //   position: absolute;
-  //   width: 125%;
-  //   height: 125%;
-  //   border-radius: ${theme.borderRadius};
-  //   transition: ${theme.transition};
-  // }
-  // &:before {
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   mix-blend-mode: screen;
-  // }
-  // &:after {
-  //   border: 2px solid ${colors.lavender};
-  //   top: -35px;
-  //   left: -35px;
-  //   z-index: -1;
-  // }
 `;
 
 const About = ({ data }) => {
