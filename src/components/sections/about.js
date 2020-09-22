@@ -5,6 +5,7 @@ import sr from '@utils/sr';
 import { srConfig, github } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
+import Profile from "../sections/profile";
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -88,7 +89,8 @@ const About = ({ data }) => {
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={github}>
-            <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
+            {/* <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" /> */}
+            <Profile />
           </StyledAvatarLink>
         </StyledPic>
       </StyledFlexContainer>
