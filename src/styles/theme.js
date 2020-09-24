@@ -1,8 +1,8 @@
 import { hex2rgba } from '@utils';
 
-const ACCENT = '#b27af5'; //buttons and fonts
-const DARK_BG = '#000000'; //highlights featured projects
-const BG = '#030202'; //tool bar
+const ACCENT = '#BB86fc'; //buttons and fonts
+const DARK_BG = '#121212'; //highlights featured projects
+const BG = '#121212'; //tool bar
 
 const theme = {
   colors: {

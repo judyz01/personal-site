@@ -51,8 +51,8 @@ const Skill = styled.li`
 const StyledPic = styled.div`
   position: relative;
   width: 100%;
-  max-width: 350px;
-  margin-left: 20px;
+  max-width: 500px;
+  margin-left: 40px;
   ${media.tablet`margin: 30px auto 0;`};
   ${media.phablet`width: 70%;`};
   a {
