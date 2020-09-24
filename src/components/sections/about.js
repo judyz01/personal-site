@@ -61,10 +61,6 @@ const StyledPic = styled.div`
     }
   }
 `;
-const StyledAvatar = styled(Img)`
-  position: relative;
-  width: 100%;
-`;
 const StyledAvatarLink = styled.a`
   ${mixins.boxShadow};
   width: 100%;
@@ -89,7 +85,6 @@ const About = ({ data }) => {
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={github}>
-            {/* <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" /> */}
             <Profile />
           </StyledAvatarLink>
         </StyledPic>

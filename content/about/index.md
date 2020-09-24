@@ -1,6 +1,5 @@
 ---
 title: 'About Me'
-avatar: './profile.png'
 skills:
   - Python
   - JavaScript
