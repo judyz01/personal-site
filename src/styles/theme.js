@@ -2,7 +2,7 @@ import { hex2rgba } from '@utils';
 
 const ACCENT = '#BB86fc'; //buttons and fonts
 const DARK_BG = '#121212'; //highlights featured projects
-const BG = '#121212'; //tool bar
+const BG = '#111111'; //tool bar
 
 const theme = {
   colors: {
@@ -10,10 +10,10 @@ const theme = {
     darkGray: BG,
     lightGray:'#1c1c1c', //project descriptions boxes and github stuff
     lightestPurple: '#ca9ef0', // lines
-    slate: '#bbb6c2', // languages used for project color, and subtitle on first page
-    lightSlate: '#bebdbf', // project descriptions
-    lightestSlate: '#e9e6eb', // project and github titles
-    white: '#f0f0f0',
+    slate: hex2rgba("#ffffff", 0.85), // project languages color, subtitle on first page, skills list
+    lightSlate: hex2rgba("#ffffff", 0.70), // project descriptions and social icons
+    lightestSlate: hex2rgba("#ffffff", 0.90), // name on hero, project and github titles, nav tool font color
+    white: '#eeebf5', //paragraphs and words not in featured or projects
     lavender: ACCENT,
     transLav: hex2rgba(ACCENT, 0.07),
     shadowBlack: hex2rgba(DARK_BG, 0.7),
