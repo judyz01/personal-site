@@ -68,7 +68,7 @@ const StyledAvatarLink = styled.a`
 
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;
-  const { title, skills, avatar } = frontmatter;
+  const { title, skills} = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
@@ -84,10 +84,10 @@ const About = ({ data }) => {
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink 
-          href={github}
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          >
+            href={github}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            >
             <Profile />
           </StyledAvatarLink>
         </StyledPic>
