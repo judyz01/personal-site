@@ -196,7 +196,7 @@ function SvgComponent(props) {
                 stroke="#3C4050"
               />
             </g>
-            <g id="prefix__Vector_2" filter="url(#prefix__filter0_b)">
+            <g id="prefix__Vector_2">
               <path
                 d="M368.39 353.376l-3.241 13.526c-3.426 8.354 2.014 17.213 13.911 16.522 11.897.691 17.337-8.168 13.912-16.522l-3.242-13.526-6.483 9.222h-8.374l-6.483-9.222z"
                 fill="#FAFAFA"
