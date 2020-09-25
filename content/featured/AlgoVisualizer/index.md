@@ -2,8 +2,8 @@
 date: '2'
 title: 'Algorithm Visualizer'
 cover: './algoVisualizer.png'
-github: 'sda'
-external: 'asdas'
+github: 'https://github.com/judyz01/sorting-visualizer'
+external: 'https://judyz01.github.io/sorting-visualizer/'
 
 tech:
   - React
