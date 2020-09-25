@@ -83,7 +83,11 @@ const About = ({ data }) => {
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink 
+          href={github}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          >
             <Profile />
           </StyledAvatarLink>
         </StyledPic>
