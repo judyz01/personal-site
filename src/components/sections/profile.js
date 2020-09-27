@@ -19,11 +19,12 @@ function SvgComponent(props) {
             initial={{ opacity: 1 }}
             animate={{ 
               opacity: 0,
-              rotate: [0, -40],
+              rotate: [0, -40]
             }}
             transition={{
               loop:Infinity,
-              duration: 5
+              duration: 5,
+              ease: "easeIn"
             }}>
           <path
             id="prefix__music"
