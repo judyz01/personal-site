@@ -2,12 +2,12 @@
 title: 'About Me'
 skills:
   - Python
+  - C++
   - JavaScript
   - Java
-  - C++
   - Node.js
-  - React
   - Git
+  - React
   - Linux
 ---
 
