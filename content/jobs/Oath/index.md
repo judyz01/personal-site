@@ -3,7 +3,7 @@ date: '2018-06-12'
 title: 'Software Engineering Intern'
 company: 'Verizon Media'
 location: 'Sunnyvale, CA'
-range: 'June - July 2018'
+range: 'June 2018 - July 2018'
 url: 'https://www.verizonmedia.com/'
 ---
 

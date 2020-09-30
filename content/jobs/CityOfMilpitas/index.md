@@ -3,7 +3,7 @@ date: '2019-06-12'
 title: 'Information Technology Intern'
 company: 'City of Milpitas'
 location: 'Milpitas, CA'
-range: 'June - August 2019'
+range: 'June 2019 - August 2019'
 url: 'http://www.ci.milpitas.ca.gov/milpitas/departments/information-services/'
 ---
 
