@@ -92,17 +92,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  img {
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
-  }
-
-  img[alt=""],
-  img:not([alt]) {
-    filter: blur(5px);
-  }
-
   svg {
     width: 100%;
     height: 100%;
