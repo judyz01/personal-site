@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Operation Pantry'
 cover: './operationpantry.png'
 github: 'https://github.com/judyz01/operation-pantry'

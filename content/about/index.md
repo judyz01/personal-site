@@ -11,7 +11,7 @@ skills:
   - Linux
 ---
 
-Hello! I'm Judy, a software engineer, [cat lover](cat), and Stack Overflow's #1 fan.
+Hello! I'm Judy, a software engineer and [cat lover](cat).
 
 I'm currently a sophomore at [UC Davis](https://www.ucdavis.edu/) majoring in Computer Science and Engineering.
 

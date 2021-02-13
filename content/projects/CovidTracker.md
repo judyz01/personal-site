@@ -1,14 +1,13 @@
 ---
-date: '1'
-title: 'Covid Tracker'
-cover: './covidtracker.png'
+date: '2020-08-17'
+title: 'Covid-19 Tracker'
 github: 'https://github.com/judyz01/covidtracker'
-external: 'https://judyz01.github.io/covidtracker/'
-
+external: ''
 tech:
   - React
   - Node.js
   - Chart.js
+company: ''
 showInProjects: true
 ---
 

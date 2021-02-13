@@ -1,4 +1,3 @@
-export { default as IconAppStore } from './appstore';
 export { default as IconCodepen } from './codepen';
 export { default as IconEmail } from './email';
 export { default as IconExternal } from './external';
@@ -8,5 +7,4 @@ export { default as IconGitHub } from './github';
 export { default as IconLinkedin } from './linkedin';
 export { default as IconLocation } from './location';
 export { default as IconLogo } from './logo';
-export { default as IconPlayStore } from './playstore';
 export { default as IconResume } from './resume';

@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Algorithm Visualizer'
 cover: './algoVisualizer.png'
 github: 'https://github.com/judyz01/sorting-visualizer'
