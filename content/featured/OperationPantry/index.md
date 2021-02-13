@@ -12,5 +12,5 @@ tech:
 showInProjects: true
 ---
 
-A [HackDavis](https://hackdavis.io/) collaboration with [Lennon Cruz](https://github.com/lennoncc) and [Angelina Vu](https://github.com/HamMochi).
+A [HackDavis](https://hackdavis.io/) collaboration with [Lennon Cruz](https://www.linkedin.com/in/lennon-c-cruz/) and [Angelina Vu](https://www.linkedin.com/in/angelina-vu-a8bba6122/).
 Operation Pantry shows the real-time inventory of the ASUCD pantry by utilizing Firebase, a Raspberry Pi, and an Arduino.
